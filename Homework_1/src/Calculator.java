@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Calculator {
@@ -5,24 +6,34 @@ public class Calculator {
     static Scanner scanner = new Scanner(System.in);
 
     public static String word = "";
-    public static String stopword = "stop";
+    public static final String stopword = "stop";
 
     public static void main(String[] args) {
 
         while (true) {
-            int num1 = getInt();
-            int num2 = getInt();
+
+            //считываем данные с клавы
+            double num1 = getNumber();
+            double num2 = getNumber();
             char operation = getOperation();
-            int result = calc(num1,num2,operation);
-            System.out.println("Результат операции: "+result);
+
+            //форматируем вывод - убираем .0 в конце, добавляем разделители , между тысячами
+            DecimalFormat format = new DecimalFormat();
+            format.setDecimalSeparatorAlwaysShown(false);
+
+            //выводим результат
+            double result = calc(num1,num2,operation);
+            System.out.println("Результат операции: " + format.format(result));
         }
     }
 
-    public static int getInt(){
+    public static double getNumber(){
         System.out.println("Введите число: (или пропишите stop чтобы завершить программу)");
-        int num = 0;
-        if(scanner.hasNextInt()){
-            num = scanner.nextInt();
+        double num = 0.0;
+        if(scanner.hasNextDouble()){
+            num = scanner.nextDouble();
+        } else if (scanner.hasNextInt()) {
+            num = (double) scanner.nextInt();
         } else {
             if(scanner.hasNext()){
                 word = scanner.next();
@@ -34,7 +45,7 @@ public class Calculator {
             else {
                 System.out.println("Вы допустили ошибку при вводе числа. Попробуйте еще раз.");
                 scanner.next();//рекурсия
-                num = getInt();
+                num = getNumber();
             }
         }
         return num;
@@ -60,17 +71,17 @@ public class Calculator {
         return operation;
     }
 
-    public static int calc(int num1, int num2, char operation){
-        int result = 0;
+    public static double calc(double num1, double num2, char operation){
+        double result = 0.0;
         switch (operation){
             case '+':
-                result = num1+num2;
+                result = num1 + num2;
                 break;
             case '-':
-                result = num1-num2;
+                result = num1 - num2;
                 break;
             case '*':
-                result = num1*num2;
+                result = num1 * num2;
                 break;
             case '/':
                 if (num2 == 0) {
