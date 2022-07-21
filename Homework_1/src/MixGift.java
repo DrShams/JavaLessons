@@ -37,7 +37,6 @@ public class MixGift {
         //перебираем варианты
         int variants = 0;
         int wPears;
-        int nPears;
         out:
         for(int wOrange = 0 ; wOrange <= giftweight; wOrange+= fruitweight[0])//цикл по весу подарка с итерацией веса апельсинов
         {
