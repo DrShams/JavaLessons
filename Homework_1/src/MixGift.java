@@ -55,11 +55,13 @@ public class MixGift {
             int totalcount = giftweight/(fruitweight[0] + fruitweight[2]);//в сумме фруктов
             System.out.println(++variants + " вариант: " + totalcount + " " + fruitname[0] + " и " + totalcount + " " + fruitname[2]);
         }
+            //яблок и груш
         if((fruitweight[1] != 0 && fruitweight[2] != 0) &&
                 giftweight % (fruitweight[1] + fruitweight[2]) == 0) {
             int totalcount = giftweight/(fruitweight[1] + fruitweight[2]);//в сумме фруктов
             System.out.println(++variants + " вариант: " + totalcount + " " + fruitname[1] + " и " + totalcount + " " + fruitname[2]);
         }
+            //апельсин, яблок и груш
         if((fruitweight[0] != 0 && fruitweight[1] != 0 && fruitweight[2] != 0) &&
                 giftweight % (fruitweight[0] + fruitweight[1] + fruitweight[2]) == 0) {
             int totalcount = giftweight/(fruitweight[0] + fruitweight[1] + fruitweight[2]);//в сумме фруктов
