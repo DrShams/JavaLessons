@@ -1,14 +1,19 @@
+package Calc;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Calculator {
 
-    static Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
-    public static String word = "";
-    public static final String stopword = "stop";
+    public String word = "";
+    public final String stopword = "stop";
 
-    public static void main(String[] args) {
+    public Calculator() {
+
+    }
+    public void calculation() {
 
         while (true) {
 
@@ -27,13 +32,11 @@ public class Calculator {
         }
     }
 
-    public static double getNumber(){
+    public double getNumber(){
         System.out.println("Введите число: (или пропишите stop чтобы завершить программу)");
         double num = 0.0;
         if(scanner.hasNextDouble()){
-            num = scanner.nextDouble();
-        } else if (scanner.hasNextInt()) {
-            num = (double) scanner.nextInt();
+            num = scanner.nextDouble();//работает и на int
         } else {
             if(scanner.hasNext()){
                 word = scanner.next();
@@ -51,7 +54,7 @@ public class Calculator {
         return num;
     }
 
-    public static char getOperation(){
+    public char getOperation(){
         System.out.println("Введите операцию: (или пропишите stop чтобы завершить программу)");
         char operation = 'x';
         if(scanner.hasNext()){
@@ -71,7 +74,7 @@ public class Calculator {
         return operation;
     }
 
-    public static double calc(double num1, double num2, char operation){
+    public double calc(double num1, double num2, char operation){
         double result = 0.0;
         switch (operation){
             case '+':

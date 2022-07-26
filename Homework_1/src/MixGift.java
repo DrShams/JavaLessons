@@ -17,7 +17,7 @@ public class MixGift {
                     x = Math.abs(x);
                     System.out.println("было преобразовано в положительное " + x);
                 }
-                else if (x == 0) {
+                else if (x == 0) {//костыль
                     System.out.println("В данное программе 0 значение заменяется на 1 ");
                     x = 1;
                 }
