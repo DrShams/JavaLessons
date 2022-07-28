@@ -6,7 +6,7 @@ public class CrazyBinary {
     public static void main(String[] args) {
 
         //Вводим проверяем что это число
-        System.out.print("Введите число: ");
+        System.out.print("Введите число бинарного типа: ");
         Scanner sc = new Scanner(System.in);
         String binaryText = sc.nextLine();
 

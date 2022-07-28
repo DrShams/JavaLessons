@@ -1,8 +1,5 @@
 package Palindrome;
 
-import java.util.Locale;
-import java.util.Scanner;
-
 public class Palindrome {
     public Palindrome() {
 

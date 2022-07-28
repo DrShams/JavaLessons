@@ -13,7 +13,7 @@ public class Main {
         if (Palindrome.isPalindrome(mytext)) {
             System.out.println("Данное слово/выражение палиндром");
         } else {
-            System.out.println("Данное слово/выражение непалиндром");
+            System.out.println("Данное слово/выражение не палиндром");
         }
     }
 }

@@ -1,5 +1,6 @@
 package Math.Division;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -11,8 +12,13 @@ public class Main {
         if (b == 0) {
             System.out.println("Деление на 0 запрещено");
         } else {
+            //форматируем вывод - убираем .0 в конце, добавляем разделители , между тысячами
+            DecimalFormat format = new DecimalFormat();
+            format.setDecimalSeparatorAlwaysShown(false);
+
+            //выводим результат
             Division division = new Division();
-            System.out.println("Деление этих чисел дало результат: " + Division.divs(a,b));
+            System.out.println("Деление этих чисел дало результат: " + format.format(Division.divs(a,b)));
         }
 
     }
