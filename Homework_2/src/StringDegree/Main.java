@@ -88,4 +88,3 @@ public class Main {
         }
     }
 }
-//for(int i = 0,x = text.length(); i == (-power); i++,x=x/2) {
