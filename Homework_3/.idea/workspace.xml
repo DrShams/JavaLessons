@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e3b464-6e2a-46fc-8719-f88298e9cc84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Homework_2/src/BullsAndCows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_1/src/MixGift.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_1/src/MixGift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/src/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/src/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
