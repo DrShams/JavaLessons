@@ -6,8 +6,8 @@ public class MixGift {
         final int COUNTNUM = 4;
         System.out.println("Введите вес подарка, вес апельсина, вес яблока, вес груши через пробел или с новой строки");
         int giftweight = 0;
-        int[] fruitweight = new int[3];//кол-во фруктов
-        String[] fruitname = {"апельсин", "яблок", "груш"};
+        int[] fruitweight = new int[3];//кол-во фруктов // Оптимизация возможна через Map<Integer, String> fruit = new TreeMap<Integer, String>();
+        String[] fruitname = {"апельсин", "яблок", "груш"}; //unique.put(0,"апельсин"); и тд.
         //выведем на экран и сохраним значения в переменные
         for (int i = 0; i < COUNTNUM; i++) { //выведем только первые 4 числа
             if (sc.hasNextInt()) {
