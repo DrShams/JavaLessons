@@ -6,13 +6,13 @@ public class CrazyBinary {
     public static void main(String[] args) {
 
         //Вводим проверяем что это число
-        System.out.print("Введите число бинарного типа: ");
+        System.out.print("Enter a binary type number: ");
         Scanner sc = new Scanner(System.in);
         String binaryText = sc.nextLine();
 
         //проверим что число введено верно
         if(!Pattern.matches("[01]*",binaryText)) {//здесь можно как-то добавить AND и сразу же проверить что нулей нет
-            System.out.println("Неверное значение, проверьте правильность ввода\nПример корректного значения: 00100100101000\nНули должны быть");
+            System.out.println("Invalid value, please check your input\nExample of correct value: 00100100101000\nZeros must be!");
             System.exit(0);
         }
 
@@ -25,7 +25,7 @@ public class CrazyBinary {
                 countzero = subString.length();
             }
         }
-        if (countzero == 0) {System.out.println("Нулей нет");}//костыль
-        System.out.println("Максимальное количество нулей: " + countzero);
+        if (countzero == 0) {System.out.println("There are no zeros");}//костыль
+        System.out.println("Maximum number of zeros: " + countzero);
     }
 }

@@ -7,7 +7,7 @@ public class GoldenTicket {
 
         //ввод номера
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите номер вашего билета");
+        System.out.println("Enter your ticket number");
         String goldenumber = sc.next();
 
         //проверим что число введено верно
@@ -32,7 +32,7 @@ public class GoldenTicket {
 
         }
         else {
-            System.out.println("[Неверно] Билет должен содержать 6-значное число");
+            System.out.println("[Error] Ticket number should consists 6 digits");
         }
 
     }

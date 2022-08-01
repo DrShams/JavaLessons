@@ -8,13 +8,13 @@ public class BullsAndCows {
         final int MAXSIZE = 4;//максимальное кол-во символов
 
         //Введем число
-        System.out.print("Введите 4 значное число: ");
+        System.out.print("Enter 4 digit number: ");
         Scanner sc = new Scanner(System.in);
         String mynumber = sc.nextLine();
         int[] arrMynumber = new int[MAXSIZE];
         //проверим что число введено верно
         if(!Pattern.matches("[0-9]{" + MAXSIZE + "}",mynumber)) {
-            System.out.println("Неверное значение, проверьте правильность ввода\nПример корректного значения: 0123");
+            System.out.println("Invalid value, please check your input\nValid value example: 0123");
             System.exit(0);
         } else {
             //проверим число на уникальность - Костыль
@@ -22,7 +22,7 @@ public class BullsAndCows {
                 arrMynumber[i] = Character.getNumericValue(mynumber.charAt(i));
                 for(int x = 0; x < i; x++) {
                     if(arrMynumber[i] == arrMynumber[x]) {//если есть повтор меняем это число на любой другое
-                        System.out.println("Вы ввели повторяющуюся цифру\nПример корректного значения: 0123");
+                        System.out.println("You have input same digit\nExample of correct input: 0123");
                         System.exit(0);
                     }
                 }
@@ -48,11 +48,11 @@ public class BullsAndCows {
                 }
             }
         }//на выходе из цикла получим уникальное число
-        System.out.print("Компьютер задумал: ");
+        System.out.print("The computer came up with the following number: ");
         for (int i = 0; i < MAXSIZE; i++) {
             System.out.print(arrPnumber[i]);
         }
-        System.out.print("\nИгрок сделал ход: ");
+        System.out.print("\nYou made choice: ");
         for (int i = 0; i < MAXSIZE; i++) {
             System.out.print(arrMynumber[i]);
         }
@@ -76,6 +76,6 @@ public class BullsAndCows {
         }
 
         //выведем результат
-        System.out.println("\nКомпьютер ответил: " + bulls + " бык(ов) " + " и " + cows + " коров(ов)");
+        System.out.println("\nThe computer reply: " + bulls + " bulls " + " and " + cows + " cows");
     }
 }

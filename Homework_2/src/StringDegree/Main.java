@@ -9,17 +9,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-
+        //Открыть файл где хранится строка ввода(text) и power(степень)
         File doc = new File("src/StringDegree/INPUT.txt");
         Scanner obj = new Scanner(doc);
-
-        int row = 0;
-
+        int row = 0;//переменная для определения строки файла
         String text = null;
         int power = 0;
         final int MAXSIZE=1023;
+
         out://для выхода из вложенных циклов одним break out
-        do {
+        do {//можно было бы обойтись без цикла т.к. всего 2 строки
             if (++row == 1) {//если первая строка
                 text = obj.nextLine();
                 //System.out.println(text);

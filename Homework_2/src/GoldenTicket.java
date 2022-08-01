@@ -32,7 +32,7 @@ public class GoldenTicket {
 
         }
         else {
-            System.out.println("[Неверно] Билет должен содержать 6-значное число");
+            System.out.println("[Error] The ticket should consists only digits");
         }
 
     }
