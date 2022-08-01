@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e3b464-6e2a-46fc-8719-f88298e9cc84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Homework_1/src/GoldenTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_1/src/GoldenTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/BullsAndCows.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/BullsAndCows.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/CrazyBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/CrazyBinary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/GoldenTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/GoldenTicket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Math/Division/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Math/Division/Division.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Math/Division/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Math/Division/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Math/Factorial/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Math/Factorial/Factorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Math/Factorial/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Math/Factorial/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Palindrome/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Palindrome/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Palindrome/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Palindrome/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Lines/Lines.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Lines/Lines.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Lines/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Lines/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Rectangles/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Rectangles/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Rectangles/Rectangles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Rectangles/Rectangles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Square/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Square/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Square/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/Stars/Square/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/StringDegree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/StringDegree/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/out/production/Homework_2/WordCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/src/BullsAndCows.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/src/BullsAndCows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/src/CrazyBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/src/CrazyBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/src/GoldenTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/src/GoldenTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_2/src/StringDegree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/src/StringDegree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_2/src/StringUnzip/INPUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_2/src/StringUnzip/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_2/src/StringUnzip/OUTPUT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_2/src/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/src/WordCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/NumCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_3/NumCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_3/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

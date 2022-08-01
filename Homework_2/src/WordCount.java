@@ -4,7 +4,7 @@ import java.util.TreeMap;
 
 public class WordCount {
     public static void main(String[] args) {
-        System.out.println("Enter the String");
+        System.out.println("Enter the String");//на вход можно и файл зарядить
         Scanner sc = new Scanner(System.in);
         String inString = sc.nextLine();
         Map<String, Integer> unique = new TreeMap<>();//типа dictionary
