@@ -53,7 +53,7 @@
 |2|abcdabcd -> -2|abcd|
 |3|abcd -> -4|NO SOLUTION|
 
-## [x]StringUnzip[*]
+## StringUnzip[*]
 Будем рассматривать только строчки, состоящие из заглавных английских букв. Например, рассмотрим строку AAAABCCCCCDDDD. Длина этой строки равна 14. Поскольку строка состоит только из английских букв, повторяющиеся символы могут быть удалены и заменены числами, определяющими количество повторений. Таким образом, данная строка может быть представлена как 4AB5C4D. Длина такой строки 7. Описанный метод мы назовем упаковкой строки.
 Напишите программу, которая берет упакованную строчку и восстанавливает по ней исходную строку.
 
@@ -67,7 +67,7 @@
 |№|INPUT.TXT|OUTPUT.TXT|
 |-----|--------|-------|
 |1|3A4B7D|AAABBBBDDDDDDD|
-|2|22D7AC18FGD|DDDDDDDDDDDDDDDDDDDDDDAAAAAAACFFFFFFFFFFFFFFFFFFGD|
+|2|22D7AC18FGD|DDDDDDDDDDDDDDDDDDDDDDAAAAAAACFFFFFFFFFF<br />FFFFFFFFGD|
 |3|95AB|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB|
 |4|40AB39A|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|
 
