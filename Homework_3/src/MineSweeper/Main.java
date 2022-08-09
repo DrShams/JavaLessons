@@ -5,25 +5,31 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+
+        //Open File
         File doc = new File("src/MineSweeper/INPUT.txt");
         Scanner obj = new Scanner(doc);
-        int row = 0;//переменная для определения строки файла
-
+        int row = 0;
         int m = 0;
         int n = 0;
-        int k = 0;
+        //int k = 0;
         int[][] matrix = new int[0][];
-        do {//можно было бы обойтись без цикла т.к. всего 2 строки
 
-            if (++row == 1) {//если первая строка
+        //Read File
+        do {
+
+            if (++row == 1) {//Read parameters of game field
                 m = obj.nextInt();
                 n = obj.nextInt();
-                //k = obj.nextInt();//в данном случае смотрим на кол-во строк в файле
+                //k = obj.nextInt();//not necessary cause we read all rows
+                System.out.println("Number of rows: m = " + m);
+                System.out.println("Number of columns: n = " + n);
+                System.out.println("Number of mines: k = " + obj.nextInt());
                 matrix = new int[m][n];
-            } else {//если вторая строка
-                int x = obj.nextInt() - 1, y = obj.nextInt() - 1;
-                matrix[x][y] = 9;//расставим мины по заданным координатам
-                //прибавим +1 соседям
+            } else {
+                int x = obj.nextInt() - 1 , y = obj.nextInt() - 1;
+                matrix[x][y] = 9;//maximum amount of mines
+
                 for (int nb = 0; nb < 8; nb++) {
                     try {
                         switch (nb) {
@@ -48,7 +54,8 @@ public class Main {
         for (int y = 0; y < m; y++) {
             for (int x = 0; x < n; x++) {
                 String res = Integer.toString(matrix[y][x]);
-                if (matrix[y][x] >= 9) res = "m";
+                if (matrix[y][x] >= 9) res = "*";
+                if (matrix[y][x] == 0) res = ".";
                 System.out.print(x == (n - 1) ? res : res + " ");
             }
             System.out.println();

@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27d75731-ebdc-4f08-8363-34901df5cf6f" name="Changes" comment="made classwork">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Bubblesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ReverseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/SpiralArray/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/SpiralArray/SpiralArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MineSweeper/INPUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MineSweeper/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MineSweeper/OUTPUT.txt" afterDir="false" />
+    <list default="true" id="27d75731-ebdc-4f08-8363-34901df5cf6f" name="Changes" comment="added hm3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_3_old/Homework_3_old.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/Array/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_3/Array/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/Array/SpiralArray/SpiralArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_3/Array/SpiralArray/SpiralArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/MineSweeper/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_3/MineSweeper/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MineSweeper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MineSweeper/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +34,6 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -153,6 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659512205321</updated>
+      <workItem from="1660070316177" duration="951000" />
     </task>
     <task id="LOCAL-00001" summary="made classwork">
       <created>1659549192319</created>
@@ -163,6 +152,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -177,7 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made classwork" />
-    <option name="LAST_COMMIT_MESSAGE" value="made classwork" />
+    <MESSAGE value="added hm3" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hm3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,5 +181,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
