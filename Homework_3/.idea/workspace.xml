@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27d75731-ebdc-4f08-8363-34901df5cf6f" name="Changes" comment="added hm3">
+      <change beforePath="$PROJECT_DIR$/../Homework_2/src/StringUnzip/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_2/src/StringUnzip/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/Array/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_3/Array/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/Array/SpiralArray/SpiralArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_3/Array/SpiralArray/SpiralArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/MineSweeper/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_3/MineSweeper/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MineSweeper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MineSweeper/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +32,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "D:/GitHub/LessonsJava/Homework_2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\LessonsJava\Homework_3\src\Matrix" />
@@ -141,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659512205321</updated>
-      <workItem from="1660070316177" duration="951000" />
+      <workItem from="1660070316177" duration="1839000" />
     </task>
     <task id="LOCAL-00001" summary="made classwork">
       <created>1659549192319</created>
@@ -150,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659549192319</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added hm3">
+      <created>1660071320797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660071320797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,12 +1,6 @@
 package StringUnzip;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.StandardOpenOption;
+import java.io.*;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -16,9 +10,9 @@ public class Main {
         File doc = new File("src/StringUnzip/INPUT.txt");
         Scanner obj = new Scanner(doc);
 
-        String resultText = "";//результирующая строка куда будем сохранять результат
-        final int MAX_LENGTH_LINE_SIZE = 40;//максимальная длина строки вывода
-
+        //String resultText = "";//результирующая строка куда будем сохранять результат
+        StringBuilder resultText = new StringBuilder();
+        //final int MAX_LENGTH_LINE_SIZE = 40;//максимальная длина строки вывода
 
         //считываем файл
 
@@ -33,19 +27,24 @@ public class Main {
             try {//если цифра есть выведем ее num число раз
                 int num = Integer.parseInt(numArr.group(1));
                 word = numArr.group(2);
-                resultText = resultText.concat(word.repeat(num));
+                resultText.append(word.repeat(num));
             }
             catch (NumberFormatException e) {//если цифры нет то выдаем исключение
                 word = numArr.group(2);
                 //System.out.print(word);
-                resultText = resultText.concat(word);
+                resultText.append(word);
             }
         }
 
         //очистим содержимое файла
         String fileName = "src/StringUnzip/OUTPUT.txt";
 
-        try (BufferedWriter bf = Files.newBufferedWriter(Path.of(fileName), StandardOpenOption.TRUNCATE_EXISTING)) {
+        try {
+            FileWriter fwOb = new FileWriter("FileName", false);
+            PrintWriter pwOb = new PrintWriter(fwOb, false);
+            pwOb.flush();
+            pwOb.close();
+            fwOb.close();
             System.out.println("file " + fileName + " has been truncated");
         } catch (IOException e) {
             e.printStackTrace();
