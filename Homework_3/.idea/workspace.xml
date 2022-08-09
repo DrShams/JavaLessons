@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27d75731-ebdc-4f08-8363-34901df5cf6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/AverageElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/IsElementInSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Minimum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/SumElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/INPUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/MaxElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/SaddlePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/SideDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/SumUpMainDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework_3_old/Homework_3_old.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="27d75731-ebdc-4f08-8363-34901df5cf6f" name="Changes" comment="made classwork">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Bubblesort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ReverseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/SpiralArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/SpiralArray/SpiralArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MineSweeper/INPUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MineSweeper/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MineSweeper/OUTPUT.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/NumCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_3/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/NumCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_3_old/Homework_3_old.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +45,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\LessonsJava\Homework_3\src\Matrix" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Array.SpiralArray" />
+      <recent name="Array" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SaddlePoint">
-    <configuration name="IsElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.IsElementInSortedArray" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.BinarySearch" />
       <module name="Homework_3" />
       <extension name="coverage">
         <pattern>
@@ -73,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.MaxElement" />
+    <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.BinarySearchTest" />
       <module name="Homework_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrix.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaddlePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.SaddlePoint" />
+    <configuration name="Bubblesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Bubblesort" />
       <module name="Homework_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrix.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +96,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SideDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.SideDiagonal" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MineSweeper.Main" />
       <module name="Homework_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MineSweeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumUpMainDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.SumUpMainDiagonal" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.SpiralArray.Main" />
       <module name="Homework_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrix.*" />
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.SpiralArray.SpiralArray" />
+      <module name="Homework_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.SpiralArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SaddlePoint" />
-        <item itemvalue="Application.MaxElement" />
-        <item itemvalue="Application.SumUpMainDiagonal" />
-        <item itemvalue="Application.SideDiagonal" />
-        <item itemvalue="Application.IsElementInSortedArray" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.BinarySearchTest" />
+        <item itemvalue="Application.Bubblesort" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +154,14 @@
       <option name="presentableId" value="Default" />
       <updated>1659512205321</updated>
     </task>
+    <task id="LOCAL-00001" summary="made classwork">
+      <created>1659549192319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659549192319</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +174,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made classwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="made classwork" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
