@@ -6,6 +6,7 @@ public class Queue<T> {
     private int tail;
 
     public Queue(int capacity) {
+        // create an array of type T with the specified capacity. T is a generic type, so it can be any type. The line of code casts the newly created array to type T.
         elements = (T[]) new Object[capacity];
         head = 0;
         tail = 0;
