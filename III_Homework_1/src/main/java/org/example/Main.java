@@ -6,22 +6,22 @@ public class Main {
         Queue<Integer> queue = new Queue<>(MAXSIZE);
 
         /*partially fill the queue*/
-        queue.enqueue(1);
-        queue.enqueue(2);
-        queue.enqueue(3);
+        queue.enqueue(6);
+        queue.enqueue(8);
+        queue.enqueue(15);
 
         System.out.println("Size of the queue: " + queue.size());//3
 
         int element = queue.dequeue();//-1
-        System.out.println("Dequeued element: " + element);
+        System.out.println("Dequeued element: " + element);//6
         System.out.println("Size of the queue: " + queue.size());//2
 
         element = queue.dequeue();//-1
-        System.out.println("Dequeued element: " + element);
+        System.out.println("Dequeued element: " + element);//8
         System.out.println("Size of the queue: " + queue.size());//1
 
         element = queue.dequeue();//-1
-        System.out.println("Dequeued element: " + element);
+        System.out.println("Dequeued element: " + element);//15
         System.out.println("Size of the queue: " + queue.size());//0
 
         /*completely subtract everything from the queue*/
@@ -33,7 +33,7 @@ public class Main {
         }
         System.out.println("Size of the queue: " + queue.size());
 
-        /*top up queue*/
+        /*top up the queue*/
         //queue.enqueue(MAXSIZE);//-> throws IllegalStateException (Queue is full)
 
     }
