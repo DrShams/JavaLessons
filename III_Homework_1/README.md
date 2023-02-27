@@ -1,4 +1,4 @@
-# Домашнее задание
+# Homework
 
-## Задание 1.
+## Assignment 1.
 Create a queue class using generics.
